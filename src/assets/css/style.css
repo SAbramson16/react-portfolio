@@ -1,0 +1,30 @@
+
+:root {
+    --light: #bdd9bf;
+    --blue: #2e4052;
+    --yellow: #ffc857;
+    --white: #ffffff;
+    --purple: #412234;
+  }
+
+nav {
+    background-color: var(--purple);
+    height: 100px;
+}
+
+.nav-item {
+    font-size: x-large;
+    
+}
+
+.nav-item a {
+    color: var(--yellow);
+}
+
+.nav-item a:hover {
+    color: var(--white);
+}
+
+.container-fluid{
+    background-color: var(--light);
+}

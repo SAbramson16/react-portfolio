@@ -2,7 +2,7 @@
 // We assign them to their own variable names
 function Navbar({ currentPage, handlePageChange }) {
   return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg">
     <ul className="navbar nav">
       <li className="nav-item">
         <a
