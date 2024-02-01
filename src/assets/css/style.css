@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    background-color: var(--light);
+    background-color: var(--blue);
     margin: 0;
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -13,45 +13,20 @@
     --white: #ffffff;
     --purple: #412234;
     --offwhite: #d2d2d2;
-  }
-
-.about-card {
-    background-color: var(--white);
-    margin-top: 50px;
-    border-radius: 50px;
-    margin-bottom: 50px;
-}
-
-.about-header {
-    text-align: center;
-    padding: 20px;
-    margin: 0;
-    font-size: 36px;
-}
-
-.photo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    height: auto;
-}
-
-.about-card .about-header, .about-p {
-    background-color: var(--white);
-    border-radius: 50px;
-    padding: 30px;
+    --dark: #031832;
+    
 }
 
 .navbar {
-    background-color: var(--purple);
+    background-image: linear-gradient(#031832, #8e9bc0); 
     height: 100px;
 }
 
+
 .nav-item {
     font-size: x-large;
-    background-color: var(--purple);
-    
+    background: transparent;
+    margin: 15px;
 }
 
 .nav-item a {
@@ -62,28 +37,125 @@
     color: var(--white);
 }
 
-.footer {
-    background-color: var(--purple);
-    height: 50px;
+.nav-item a.active {
+    color: var(--white);
 }
+
+.about-card {
+    background-color: var(--blue);
+    background-image: linear-gradient(#031832, #d2d2d2); 
+    margin-top: 50px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+    width: 75%;
+    text-align: center;
+    position: relative;
+    left: 12.5%;
+}
+
+.about-header {
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    font-size: 36px;
+    color: white;
+}
+
+.photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+    height: 300px;
+}
+
+.about-card .about-header,
+.about-p {
+    background: transparent;
+    border-radius: 50px;
+    padding: 30px;
+}
+
+.project-card {
+    background-color: #9aa8ce;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    box-shadow: 10px 10px;;
+}
+
+.portfolio-p {
+    color: var(--white);
+    text-align: center;
+    font-size: 24px;
+}
+.col-sm-10 {
+    background: transparent;
+}
+.features-icons-item, h3 {
+    background: transparent;
+}
+.contact-page {
+    margin: 25px;
+}
+.contact-form {
+    margin: 25px;
+}
+
+.contact-page button {
+    background-color: var(--blue);
+    color: var(--yellow);
+    margin-top: 15px;
+    height: 50px;
+    font-size: larger;
+}
+
+.contact-page button:hover {
+    background-color: var(--yellow);
+}
+
+.footer {
+    background-color: grey;
+    height: 75px;
+    position: relative;
+}
+
+
 
 .icon {
     display: inline;
     font-size: x-large;
     margin: 10px;
-    text-align: center;
+    height: 50px;
+    width: 50px;
 }
 
 
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
+@media (max-width: 572px) {
+    .nav-item {
+        font-size: 90%;
+        padding: 0 0 10px 0;
+    } 
+}
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
+@media (max-width: 768px) {
+    .nav-item {
+        display: block;
+        padding: 0 0 10px 0;
+    }
 
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
+    .photo {
+        width: 250px;
+        height: 270px;
+    }
+}
+
+@media (max-width: 992px) {
+    
+}
+
+@media (max-width: 1200px) {
+    
+}

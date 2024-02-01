@@ -10,7 +10,7 @@ const Footer = () => {
     };
 
     return (
-        <footer>
+        <footer id="footer">
             <div >
                 <div className="footer">
                     <FaGithub onClick={() => handleClickIcon('github')} className="icon"/>
