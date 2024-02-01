@@ -1,4 +1,3 @@
-// This is a static page mocking an "About Us" section for our fake user data
 export default function AboutPage() {
   return (
     <div className="container pt-4">
@@ -26,7 +25,7 @@ export default function AboutPage() {
                   <i className="bi-layers m-auto text-primary" />
                 </div>
                 <h3>Code Quiz</h3>
-                <a href="https://sabramson16.github.io/code-quiz/"><img src="\src\assets\Screenshot 2024-01-30 171148.png" className="col-sm-10"></img></a>
+                <a href="https://sabramson16.github.io/code-quiz/"><img src="\src\assets\images\code-quiz.png" className="col-sm-10"></img></a>
                 <p className="lead mb-0">
                 This project is a short quiz, testing basic knowledge of Javascript concepts. 
                 </p>
@@ -38,7 +37,7 @@ export default function AboutPage() {
                   <i className="bi-terminal m-auto text-primary" />
                 </div>
                 <h3>Text Editor</h3>
-                <a href=" https://jate-text-editor-vpth.onrender.com/"><img src="\src\assets\text-editor screenshot.png" className="col-sm-10"></img></a>
+                <a href=" https://jate-text-editor-vpth.onrender.com/"><img src="\src\assets\images\text-editor screenshot.png" className="col-sm-10"></img></a>
                 <p className="lead mb-0">
                 This application is a text editor that runs in the browser. The user is able to install the application and use it offline as well.
                 </p>

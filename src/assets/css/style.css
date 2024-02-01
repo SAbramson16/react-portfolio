@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    background-color: var(--white);
     margin: 0;
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -11,24 +12,33 @@
     --yellow: #ffc857;
     --white: #ffffff;
     --purple: #412234;
-    background-color: var(--light);
   }
 
-.body {
-    width: 100%;
-    
-}  
-.container-fluid {
-    width: 100%;
+.about-page {
+    background-color: var(--light);
+    margin-top: 50px;
+    border-radius: 50px;
 }
+
+.about-header {
+text-align: center;
+padding: 20px;
+margin: 0;
+
+}
+
+.about-card h1, p {
+    background-color: var(--light);
+}
+
 .navbar {
     background-color: var(--purple);
     height: 100px;
-
 }
 
 .nav-item {
     font-size: x-large;
+    background-color: var(--purple);
     
 }
 
@@ -40,6 +50,9 @@
     color: var(--white);
 }
 
+.footer {
+    background-color: var(--light);
+}
 
 
 
