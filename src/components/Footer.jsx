@@ -3,16 +3,16 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 const Footer = () => {
     const handleClickIcon = (icon) => {
         if (icon === 'github') {
-            window.open('insert github link', '_blank');
+            window.open('https://www.github.com/SAbramson16', '_blank');
         } else if (icon === 'linkedin') {
-            window.open('insert linkedin link', '_blank');
+            window.open('https://www.linkedin.com/in/sharon-abramson-32125b283/', '_blank');
         }
     };
 
     return (
-        <footer className="footer">
-            <div>
-                <div>
+        <footer>
+            <div >
+                <div className="footer">
                     <FaGithub onClick={() => handleClickIcon('github')} className="icon"/>
                     <FaLinkedin onClick={() => handleClickIcon('linkedin')} className="icon"/>
                 </div>

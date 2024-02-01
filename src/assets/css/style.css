@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    background-color: var(--white);
+    background-color: var(--light);
     margin: 0;
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -12,23 +12,35 @@
     --yellow: #ffc857;
     --white: #ffffff;
     --purple: #412234;
+    --offwhite: #d2d2d2;
   }
 
-.about-page {
-    background-color: var(--light);
+.about-card {
+    background-color: var(--white);
     margin-top: 50px;
     border-radius: 50px;
+    margin-bottom: 50px;
 }
 
 .about-header {
-text-align: center;
-padding: 20px;
-margin: 0;
-
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    font-size: 36px;
 }
 
-.about-card h1, p {
-    background-color: var(--light);
+.photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+}
+
+.about-card .about-header, .about-p {
+    background-color: var(--white);
+    border-radius: 50px;
+    padding: 30px;
 }
 
 .navbar {
@@ -51,7 +63,15 @@ margin: 0;
 }
 
 .footer {
-    background-color: var(--light);
+    background-color: var(--purple);
+    height: 50px;
+}
+
+.icon {
+    display: inline;
+    font-size: x-large;
+    margin: 10px;
+    text-align: center;
 }
 
 
