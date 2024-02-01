@@ -4,9 +4,6 @@ const Resume = () => {
   return (
     <>
       <section className="resume-page">
-        
-       
-        
       </section>
     </>
   );

@@ -3,7 +3,7 @@
     background-color: var(--blue);
     margin: 0;
     padding: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 :root {
@@ -14,14 +14,12 @@
     --purple: #412234;
     --offwhite: #d2d2d2;
     --dark: #031832;
-    
 }
 
 .navbar {
     background-image: linear-gradient(#031832, #8e9bc0); 
     height: 100px;
 }
-
 
 .nav-item {
     font-size: x-large;
@@ -61,19 +59,19 @@
     color: white;
 }
 
+.about-card .about-header,
+.about-p {
+    background: transparent;
+    border-radius: 50px;
+    padding: 30px;
+}
+
 .photo {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 280px;
     height: 300px;
-}
-
-.about-card .about-header,
-.about-p {
-    background: transparent;
-    border-radius: 50px;
-    padding: 30px;
 }
 
 .project-card {
@@ -90,20 +88,22 @@
     font-size: 24px;
 }
 
-.link {
-    background: transparent;
-    margin: 5px;
-}
-.github-link {
-    text-decoration: none;
-    color:var(--blue);
-}
-
 .project-img {
     background: transparent;
     width: 200px;
     height: 150px;
 }
+
+.link {
+    background: transparent;
+    margin: 5px;
+}
+
+.github-link {
+    text-decoration: none;
+    color:var(--blue);
+}
+
 .features-icons-item, h3 {
     background: transparent;
 }
@@ -116,6 +116,7 @@
     border-radius: 30px;
     margin: 20px;
 }
+
 .resume-page {
     text-align: center;
     margin-top: 50px;
@@ -124,23 +125,28 @@
     position: relative;
     margin-bottom: 50px;
 }
+
 .resume-header {
     color: #ffffff;
 }
+
 .resume-p {
     color: #ffffff;
     font-size: 20px;
     margin-top: 50px;
 }
+
 .proficiencies {
     color: #ffffff;
     font-size: 40px;
 }
+
 .proficiencies-list li {
     list-style-type: none;
     color: #ffffff;
     font-size: 24px;
 }
+
 .resume-link {
     color: #ffc857;
     font-size: 30px;
@@ -149,6 +155,7 @@
     border-style: solid;
     padding: 4px;
 }
+
 .form-group {
     width: 50%;
 }
@@ -156,17 +163,26 @@
 .text-area {
     width: 50%;
 }
+
 .contact-page {
     margin-top: 25px;
     left: 25%;
     position: relative;
 }
+
 .contact-header {
     color:var(--yellow);
+    left: 15%;
+    position: relative;
 }
+
 .contact {
     color: var(--yellow);
+    left: 5%;
+    position: relative;
+    
 }
+
 .contact-form {
     margin: 25px;
 }
@@ -206,17 +222,18 @@ label {
     background-color: #ffffff;
     left: 45%;
     position: relative;
-
 }
-
-
-
 
 @media (max-width: 572px) {
     .nav-item {
         font-size: 90%;
         padding: 0 0 10px 0;
     } 
+
+    .contact {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 @media (max-width: 768px) {

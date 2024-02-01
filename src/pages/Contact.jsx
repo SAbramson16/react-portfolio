@@ -6,6 +6,7 @@ function Contact() {
   const [message, setMessage] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
 
+  // handles changes to the input fields and updates state variables
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     if (name === 'name') {
@@ -17,6 +18,7 @@ function Contact() {
     }
   };
 
+  // checks to see if any of the fields are empty, and displays error message if so
   const handleFormSubmit = (e) => {
     e.preventDefault();
 
@@ -25,6 +27,7 @@ function Contact() {
       return;
     }
 
+    // clear the forms after successful submit
     setName('');
     setEmail('');
     setMessage('');
@@ -65,12 +68,13 @@ function Contact() {
         </div>
         <div className="text-area">
           <label htmlFor="exampleFormControlTextarea1">
-            Type your message here:
+            Message
           </label>
           <textarea
             className="form-control"
             id="exampleFormControlTextarea1"
             rows="3"
+            placeholder="Type your message here..."
             name="message"
             value={message}
             onChange={handleInputChange}

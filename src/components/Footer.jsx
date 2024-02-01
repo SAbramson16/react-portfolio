@@ -1,5 +1,6 @@
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
+// functionality for github and linkedin icons, directs to corresponding pages
 const Footer = () => {
     const handleClickIcon = (icon) => {
         if (icon === 'github') {
