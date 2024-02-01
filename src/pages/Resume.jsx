@@ -1,19 +1,22 @@
-import Resume from '../components/Resume'
-
 export default function ResumePage() {
-  const onButtonClick = () => {
-    const pdfUrl = "Sample.pdf";
-    const link = document.createElement("a");
-    link.href = pdfUrl;
-    link.download = "/src/assets/resume.pdf"; // specify the filename
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
-
-  return (
-    <div>
-        <Resume onButtonClick={onButtonClick} />
-    </div>
-  );
-}
+    return (
+      <div>
+        <p>
+        <h2 className="proficiencies">Proficiencies:</h2>
+            <ul className="proficiencies-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>NodeJS</li>
+                <li>Express</li>
+                <li>SQL/Sequelize</li>
+                <li>NOSQL</li>
+            </ul>
+        <a href='../assets/resume.pdf' download="../assets/resume.pdf">
+        Download Resume
+      </a>
+        </p>
+      </div>
+    );
+  }
+  
