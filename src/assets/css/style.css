@@ -89,8 +89,20 @@
     text-align: center;
     font-size: 24px;
 }
-.col-sm-10 {
+
+.link {
     background: transparent;
+    margin: 5px;
+}
+.github-link {
+    text-decoration: none;
+    color:var(--blue);
+}
+
+.project-img {
+    background: transparent;
+    width: 200px;
+    height: 150px;
 }
 .features-icons-item, h3 {
     background: transparent;
@@ -107,6 +119,10 @@
 .resume-page {
     text-align: center;
     margin-top: 50px;
+    width: 50%;
+    left: 25%;
+    position: relative;
+    margin-bottom: 50px;
 }
 .resume-header {
     color: #ffffff;
@@ -118,37 +134,68 @@
 }
 .proficiencies {
     color: #ffffff;
+    font-size: 40px;
 }
 .proficiencies-list li {
     list-style-type: none;
     color: #ffffff;
+    font-size: 24px;
+}
+.resume-link {
+    color: #ffc857;
+    font-size: 30px;
+    text-decoration: none;
+    border:#ffc857;
+    border-style: solid;
+    padding: 4px;
+}
+.form-group {
+    width: 50%;
+}
+
+.text-area {
+    width: 50%;
 }
 .contact-page {
-    margin: 25px;
+    margin-top: 25px;
+    left: 25%;
+    position: relative;
+}
+.contact-header {
+    color:var(--yellow);
+}
+.contact {
+    color: var(--yellow);
 }
 .contact-form {
     margin: 25px;
 }
 
+.error-message {
+    color: rgb(243, 118, 118);
+}
+
+label {
+    color: #ffffff;
+}
+
 .contact-page button {
-    background-color: var(--blue);
-    color: var(--yellow);
+    background-color: var(--yellow);
+    color: var(--blue);
     margin-top: 15px;
     height: 50px;
     font-size: larger;
 }
 
 .contact-page button:hover {
-    background-color: var(--yellow);
+    background-color: lightblue;
 }
 
 .footer {
-    background-color: grey;
+    background-image: linear-gradient(#d2d2d2, #031832); 
     height: 75px;
     position: relative;
 }
-
-
 
 .icon {
     display: inline;
@@ -156,6 +203,10 @@
     margin: 10px;
     height: 50px;
     width: 50px;
+    background-color: #ffffff;
+    left: 45%;
+    position: relative;
+
 }
 
 
