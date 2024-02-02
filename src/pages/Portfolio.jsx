@@ -13,7 +13,7 @@ export default function ProjectPage() {
                   <i className="bi-layers m-auto text-primary" />
                 </div>
                 <h3>Code Quiz</h3>
-                <a href="https://sabramson16.github.io/code-quiz/"><img src="\public\images\code-quiz.png" className="col-sm-10 project-img"></img></a>
+                <a href="https://sabramson16.github.io/code-quiz/"><img src="\images\code-quiz.png" className="col-sm-10 project-img"></img></a>
                 <p className="lead mb-0 link">
                 <a className="github-link" href="https://github.com/SAbramson16/code-quiz">Github Repository</a>
                 </p>
@@ -25,7 +25,7 @@ export default function ProjectPage() {
                   <i className="bi-terminal m-auto text-primary" />
                 </div>
                 <h3>Text Editor</h3>
-                <a href=" https://jate-text-editor-vpth.onrender.com/"><img src="\public\images\text-editor screenshot.png" className="col-sm-10 project-img"></img></a>
+                <a href=" https://jate-text-editor-vpth.onrender.com/"><img src="\images\text-editor screenshot.png" className="col-sm-10 project-img"></img></a>
                 <p className="lead mb-0 link">
                 <a className="github-link" href="https://github.com/SAbramson16/text-editor">Github Repository</a>
                 </p>
@@ -37,7 +37,7 @@ export default function ProjectPage() {
                   <i className="bi-window m-auto text-primary" />
                 </div>
                 <h3>Random Password Generator</h3>
-                <a href="https://sabramson16.github.io/password-generator/"><img src="\public\images\pass-gen.png" className="col-sm-10 project-img"></img></a>
+                <a href="https://sabramson16.github.io/password-generator/"><img src="\images\pass-gen.png" className="col-sm-10 project-img"></img></a>
                 <p className="lead mb-0 link"> 
                 <a className="github-link" href="https://github.com/SAbramson16/password-generator">Github Repository</a>
                 </p>
@@ -49,7 +49,7 @@ export default function ProjectPage() {
                   <i className="bi-layers m-auto text-primary" />
                 </div>
                 <h3>Employee Tracker</h3>
-                <a href="https://drive.google.com/file/d/14cqS4adv-N9hgT42FDJjQmoMoK1AFiwq/view"><img src="\public\images\employee-screenshot.png" className="col-sm-10 project-img"></img></a>
+                <a href="https://drive.google.com/file/d/14cqS4adv-N9hgT42FDJjQmoMoK1AFiwq/view"><img src="\images\employee-screenshot.png" className="col-sm-10 project-img"></img></a>
                 <p className="lead mb-0 link">
                 <a className="github-link" href="https://github.com/SAbramson16/employee-tracker">Github Repository</a>
                 </p>
@@ -61,7 +61,7 @@ export default function ProjectPage() {
                   <i className="bi-terminal m-auto text-primary" />
                 </div>
                 <h3>Weather Dashboard</h3>
-                <a href="https://sabramson16.github.io/weather-dashboard/"><img src="\public\images\weather-screenshot.png" className="col-sm-10 project-img"></img></a>
+                <a href="https://sabramson16.github.io/weather-dashboard/"><img src="\images\weather-screenshot.png" className="col-sm-10 project-img"></img></a>
                 <p className="lead mb-0 link">
                 <a className="github-link" href="https://github.com/SAbramson16/weather-dashboard">Github Repository</a>
                 </p>
@@ -73,7 +73,7 @@ export default function ProjectPage() {
                   <i className="bi-window m-auto text-primary" />
                 </div>
                 <h3>Doodle Drop</h3>
-                <a href="https://doodledrop-7357eeb23db1.herokuapp.com/"><img src="\public\images\doodle-screenshot.png" className="col-sm-10 project-img"></img></a>
+                <a href="https://doodledrop-7357eeb23db1.herokuapp.com/"><img src="\images\doodle-screenshot.png" className="col-sm-10 project-img"></img></a>
                 <p className="lead mb-0 link"> 
                 <a className="github-link" href="https://github.com/RecceRaven/DoodleDrop">Github Repository</a>
                 </p>

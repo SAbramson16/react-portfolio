@@ -1,4 +1,4 @@
-import resume from "../assets/resume.pdf"
+import resume from "/resume.pdf"
 
 export default function ResumePage() {
     return (
