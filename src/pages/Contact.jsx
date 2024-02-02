@@ -18,6 +18,14 @@ function Contact() {
     }
   };
 
+  // function for when user clicks in text field and then clicks out of text box with no text
+  const handleInputBlur = (e) => {
+    const { name, value } = e.target;
+    if (!value) {
+      setErrorMessage('Please fill out all fields!');
+    }
+  };
+
   // checks to see if any of the fields are empty, and displays error message if so
   const handleFormSubmit = (e) => {
     e.preventDefault();
@@ -37,10 +45,10 @@ function Contact() {
   return (
     <div className="contact-page">
       <h1 className="contact-header">Get in touch!</h1>
-      {errorMessage && <p className="error-message">{errorMessage}</p>}
       <p className="contact">
         Please fill out this form with your name, email, and message.
       </p>
+      {errorMessage && <p className="error-message">{errorMessage}</p>}
       <form className="contact-form" onSubmit={handleFormSubmit}>
         <div className="form-group">
           <label htmlFor="formGroupExampleInput">Name</label>
@@ -52,6 +60,7 @@ function Contact() {
             name="name"
             value={name}
             onChange={handleInputChange}
+            onBlur={handleInputBlur}
           />
         </div>
         <div className="form-group">
@@ -64,6 +73,7 @@ function Contact() {
             name="email"
             value={email}
             onChange={handleInputChange}
+            onBlur={handleInputBlur}
           />
         </div>
         <div className="text-area">
@@ -78,6 +88,7 @@ function Contact() {
             name="message"
             value={message}
             onChange={handleInputChange}
+            onBlur={handleInputBlur}
           ></textarea>
         </div>
         <button type="submit" className="btn">
