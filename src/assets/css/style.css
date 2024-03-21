@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    background-color: var(--blue);
+    background-color: var(--offwhite);
     margin: 0;
     padding: 0;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -40,8 +40,8 @@
 }
 
 .about-card {
-    background-color: var(--blue);
-    background-image: linear-gradient(#031832, #d2d2d2); 
+    background-color: var(--dark);
+    /* background-image: linear-gradient(#031832, #d2d2d2);  */
     margin-top: 50px;
     border-radius: 50px;
     margin-bottom: 50px;
@@ -64,6 +64,7 @@
     background: transparent;
     border-radius: 50px;
     padding: 30px;
+    color: var(--white);
 }
 
 .photo {
@@ -75,15 +76,18 @@
 }
 
 .project-card {
-    background-color: #9aa8ce;
+    background-color: var(--blue);
     display: flex;
     flex-wrap: wrap;
     margin: 15px;
-    box-shadow: 10px 10px;;
+    box-shadow: 10px 10px;
+}
+.portfolio-header {
+    color: white;
 }
 
 .portfolio-p {
-    color: var(--white);
+    color: var(--dark);
     text-align: center;
     font-size: 24px;
 }
@@ -101,7 +105,12 @@
 
 .github-link {
     text-decoration: none;
-    color:var(--blue);
+    color:var(--yellow);
+}
+
+.link a:hover {
+    color: white;
+    text-decoration: none;
 }
 
 .features-icons-item, h3 {
@@ -124,67 +133,86 @@
     left: 25%;
     position: relative;
     margin-bottom: 50px;
-}
-
-.resume-header {
-    color: #ffffff;
-}
-
-.resume-p {
-    color: #ffffff;
-    font-size: 20px;
-    margin-top: 50px;
+    background-color: var(--dark);
+    padding: 10px;
+    border-radius: 20px;
 }
 
 .proficiencies {
-    color: #ffffff;
+    color: var(--white);
     font-size: 40px;
+    background: transparent;
 }
 
 .proficiencies-list li {
     list-style-type: none;
-    color: #ffffff;
+    color: var(--white);
+    background: transparent;
+    background-color: var(--dark);
     font-size: 24px;
+    padding-bottom: 5px;
 }
 
 .resume-link {
     color: #ffc857;
+    background-color: var(--blue);
     font-size: 30px;
     text-decoration: none;
-    border:#ffc857;
-    border-style: solid;
-    padding: 4px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
 }
 
-.form-group {
+a:hover {
+    color: var(--white);
+    text-decoration: none;
+}
+
+/* .form-group {
     width: 50%;
 }
 
 .text-area {
     width: 50%;
-}
+} */
 
-.contact-page {
+/* .contact-page {
     margin-top: 25px;
     left: 25%;
     position: relative;
-}
+    border-style: dashed;
+    width: 50%;
+    background-color: #031832;
+} */
 
-.contact-header {
+/* .contact-header {
     color:var(--yellow);
-    left: 15%;
     position: relative;
+    background-color: var(--dark);
+    text-align: center;
 }
 
 .contact {
     color: var(--yellow);
-    left: 5%;
     position: relative;
+    background-color: var(--dark);
+    text-align: center;
     
 }
 
 .contact-form {
     margin: 25px;
+    background-color: var(--dark);
+    text-align: center;
+} */
+
+/* input {
+    text-align: center;
+}
+
+.form-group, .text-area {
+    left: 25%;
+    position: relative;
 }
 
 .error-message {
@@ -205,7 +233,7 @@ label {
 
 .contact-page button:hover {
     background-color: lightblue;
-}
+} */
 
 .footer {
     background-image: linear-gradient(#d2d2d2, #031832); 
