@@ -12,7 +12,7 @@ This project uses reactJS. Components, pages, and styling documents can be found
 
 Once the dependencies are installed, the application can be used locally. Alternatively, the application is deployed on netlify.com and can be found at this URL: https://prismatic-selkie-d9ab4a.netlify.app/ 
 
-![Alt text](./src/assets/images/Screenshot%202024-02-01%20194149.png)
+![Alt text](./public/images/Screenshot%202024-02-01%20194149.png)
 
 ## Credits
 
